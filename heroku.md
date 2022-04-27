@@ -14,6 +14,8 @@ git push heroku master
 * definir em package.json (    "start": "node index.js") para ficar o npm start e o comando 
 * definir no index const (port = process.env.PORT)
 
+- para usar o bd da heroku basta colocar data e ir colocando os dados no .sql e dps colocar nossas tabeleas
+
 CLI plugins allow you to extend your CLI installation. Install a CLI plugin with heroku plugins:install someplugin. See Using CLI Plugins for more information on plugin management.
 
 Here are some useful plugins:
